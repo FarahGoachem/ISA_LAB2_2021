@@ -1,0 +1,20 @@
+vcom ../tb/data_maker.vhd
+vcom ../tb/clk_gen.vhd
+vcom ../tb/data_sink.vhd
+vlog ../tb/tb_fir.v
+
+vcom ../../common/unpackfp_unpackfp.vhd
+vcom ../../common/fpround_fpround.vhd
+vcom ../../common/fpnormalize_fpnormalize.vhd
+vcom ../../common/packfp_packfp.vhd
+
+vcom ../reg.vhd
+vcom ../fpmul_stage1_struct.vhd
+vcom ../fpmul_stage2_struct.vhd
+vcom ../fpmul_stage3_struct.vhd
+vcom ../fpmul_stage4_struct.vhd
+vcom ../fpmul_pipeline.vhd
+
+vsim -t 100ps work.tb_fir
+add wave *
+run 200ns

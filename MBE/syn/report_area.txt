@@ -1,0 +1,32 @@
+ 
+****************************************
+Report : area
+Design : MBE
+Version: O-2018.06-SP4
+Date   : Fri Dec 17 17:19:44 2021
+****************************************
+
+Library(s) Used:
+
+    gtech (File: /software/synopsys/syn_current_64.18/libraries/syn/gtech.db)
+
+Number of ports:                        17098
+Number of nets:                         25060
+Number of cells:                         6473
+Number of combinational cells:           4701
+Number of sequential cells:               799
+Number of macros/black boxes:               0
+Number of buf/inv:                        968
+Number of references:                       3
+
+Combinational area:                  0.000000
+Buf/Inv area:                        0.000000
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                     0.000000
+Total area:                 undefined
+
+Information: This design contains unmapped logic. (RPT-7)
+1

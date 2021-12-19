@@ -1,0 +1,96 @@
+Information: Checking out the license 'DesignWare'. (SEC-104)
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : MBE
+Version: O-2018.06-SP4
+Date   : Fri Dec 17 17:18:15 2021
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: multiplier[1]
+              (input port)
+  Endpoint: data_out[63]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  MBE                5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 r
+  multiplier[1] (in)                                      0.00       0.00 r
+  booth_encoder_inst/multiplier[1] (booth_encoder)        0.00       0.00 r
+  booth_encoder_inst/partial_prod_out[1][0] (booth_encoder)
+                                                          0.00       0.00 r
+  dadda_tree_inst/partial_prod[1][0] (dadda_tree)         0.00       0.00 r
+  dadda_tree_inst/layer6_inst/partial_prod[1][0] (dadda_l6)
+                                                          0.00       0.00 r
+  dadda_tree_inst/layer6_inst/adder_gen_inst_even_0_23_0/input[1] (adder_gen_n_ha0_n_fa0_nbit_in2_nbit_out2_carry_max4)
+                                                          0.00       0.00 r
+  dadda_tree_inst/layer6_inst/adder_gen_inst_even_0_23_0/output[1] (adder_gen_n_ha0_n_fa0_nbit_in2_nbit_out2_carry_max4)
+                                                          0.00       0.00 r
+  dadda_tree_inst/layer6_inst/partial_prod_l6[1][0] (dadda_l6)
+                                                          0.00       0.00 r
+  dadda_tree_inst/layer5_inst/partial_prod_l6[1][0] (dadda_l5)
+                                                          0.00       0.00 r
+  dadda_tree_inst/layer5_inst/adder_gen_inst_even_0_15_0/input[1] (adder_gen_n_ha0_n_fa0_nbit_in2_nbit_out2_carry_max4)
+                                                          0.00       0.00 r
+  dadda_tree_inst/layer5_inst/adder_gen_inst_even_0_15_0/output[1] (adder_gen_n_ha0_n_fa0_nbit_in2_nbit_out2_carry_max4)
+                                                          0.00       0.00 r
+  dadda_tree_inst/layer5_inst/partial_prod_l5[1][0] (dadda_l5)
+                                                          0.00       0.00 r
+  dadda_tree_inst/layer4_inst/partial_prod_l5[1][0] (dadda_l4)
+                                                          0.00       0.00 r
+  dadda_tree_inst/layer4_inst/adder_gen_inst_even_0_9_0/input[1] (adder_gen_n_ha0_n_fa0_nbit_in2_nbit_out2_carry_max3)
+                                                          0.00       0.00 r
+  dadda_tree_inst/layer4_inst/adder_gen_inst_even_0_9_0/output[1] (adder_gen_n_ha0_n_fa0_nbit_in2_nbit_out2_carry_max3)
+                                                          0.00       0.00 r
+  dadda_tree_inst/layer4_inst/partial_prod_l4[1][0] (dadda_l4)
+                                                          0.00       0.00 r
+  dadda_tree_inst/layer3_inst/partial_prod_l4[1][0] (dadda_l3)
+                                                          0.00       0.00 r
+  dadda_tree_inst/layer3_inst/adder_gen_inst_even_0_5_0/input[1] (adder_gen_n_ha0_n_fa0_nbit_in2_nbit_out2_carry_max2)
+                                                          0.00       0.00 r
+  dadda_tree_inst/layer3_inst/adder_gen_inst_even_0_5_0/output[1] (adder_gen_n_ha0_n_fa0_nbit_in2_nbit_out2_carry_max2)
+                                                          0.00       0.00 r
+  dadda_tree_inst/layer3_inst/partial_prod_l3[1][0] (dadda_l3)
+                                                          0.00       0.00 r
+  dadda_tree_inst/layer2_inst/partial_prod_l3[1][0] (dadda_l2)
+                                                          0.00       0.00 r
+  dadda_tree_inst/layer2_inst/adder_gen_inst_even_0_3_0/input[1] (adder_gen_n_ha0_n_fa0_nbit_in2_nbit_out2_carry_max1)
+                                                          0.00       0.00 r
+  dadda_tree_inst/layer2_inst/adder_gen_inst_even_0_3_0/output[1] (adder_gen_n_ha0_n_fa0_nbit_in2_nbit_out2_carry_max1)
+                                                          0.00       0.00 r
+  dadda_tree_inst/layer2_inst/partial_prod_l2[1][0] (dadda_l2)
+                                                          0.00       0.00 r
+  dadda_tree_inst/layer1_inst/partial_prod_l2[1][0] (dadda_l1)
+                                                          0.00       0.00 r
+  dadda_tree_inst/layer1_inst/adder_gen_inst_even_0_1_0/input[1] (adder_gen_n_ha0_n_fa0_nbit_in2_nbit_out2_carry_max1)
+                                                          0.00       0.00 r
+  dadda_tree_inst/layer1_inst/adder_gen_inst_even_0_1_0/output[1] (adder_gen_n_ha0_n_fa0_nbit_in2_nbit_out2_carry_max1)
+                                                          0.00       0.00 r
+  dadda_tree_inst/layer1_inst/partial_prod_l1[1][0] (dadda_l1)
+                                                          0.00       0.00 r
+  dadda_tree_inst/data_out2[0] (dadda_tree)               0.00       0.00 r
+  add_43/B_0 (*ADD_TC_OP_64_64_64)                        0.00       0.00 r
+  add_43/*cell*2801/B[0] (DW01_add_width64)               0.00       0.00 r
+  ...
+  add_43/*cell*2801/SUM[63] (DW01_add_width64)            0.13       0.13 r
+  add_43/Z_63 (*ADD_TC_OP_64_64_64)                       0.00       0.13 r
+  data_out[63] (out)                                      0.00       0.13 r
+  data arrival time                                                  0.13
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1
